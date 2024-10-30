@@ -17,7 +17,7 @@
 <ol>
     <li><strong>Clone the repository:</strong>
     <pre><code>git clone https://github.com/abbasmurudkar/LifeSparkAssignment
-cd patient-management-system/backend</code></pre>
+cd server</code></pre>
     </li>
     <li><strong>Configure MongoDB:</strong>
     <p>Ensure MongoDB is running on your local machine. By default, the application connects to MongoDB at <code>mongodb://localhost:27017/patientdb</code>. You can configure this in the <code>application.properties</code> file if necessary:</p>
