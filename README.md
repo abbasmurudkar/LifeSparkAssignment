@@ -20,7 +20,7 @@
 cd server</code></pre>
     </li>
     <li><strong>Configure MongoDB:</strong>
-    <p>Ensure MongoDB is running on your local machine. By default, the application connects to MongoDB at <code>mongodb://localhost:27017/patientdb</code>. You can configure this in the <code>application.properties</code> file if necessary:</p>
+    <p>Ensure MongoDB is running on your local machine. By default, the application connects to MongoDB at but make sure if you are using same mongodb url then extract it from the repository the below is just for reference that how you can configure it <code>mongodb://localhost:27017/patientdb</code>. You can configure this in the <code>application.properties</code> file if necessary:</p>
     <pre><code>spring.data.mongodb.uri=mongodb://localhost:27017/patientdb</code></pre>
     </li>
     <li><strong>Build and run the Spring Boot application:</strong>
