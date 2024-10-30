@@ -75,7 +75,7 @@ mvn spring-boot:run</code></pre>
 
 <h4>3. Create a Patient</h4>
 <ul>
-    <li><strong>URL:</strong> <code>/</code></li>
+    <li><strong>URL:</strong> <code>/addPatient</code></li>
     <li><strong>Method:</strong> <code>POST</code></li>
     <li><strong>Description:</strong> Adds a new patient to the database.</li>
     <li><strong>Request Body:</strong> A JSON object representing the patient.</li>
