@@ -5,7 +5,7 @@
 
 <h2>Demo Video</h2>
 <p>Watch the demo video to see how the system works:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
 <h2>Setup Instructions</h2>
 
 <h3>Prerequisites</h3>
