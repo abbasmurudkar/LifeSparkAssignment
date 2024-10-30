@@ -5,7 +5,7 @@
 
 <h2>Project Video</h2>
 <p>Watch the video to see how the system works with frontend and backend:</p>
-<p><a href="https://drive.google.com/file/d/1QFt-LHfEKjk0UaGfxOp0JQpngKDyTWGH/view?usp=sharing" target="_blank">View Project Video Drive</a></p>
+<p><a href="https://drive.google.com/file/d/1lMkwspkKPML915CkFIC8C4JFsniKdqIO/view?usp=sharing" target="_blank">View Project Video Drive</a></p>
 
 <h3>Prerequisites</h3>
 <ul>
