@@ -59,6 +59,10 @@ const Dashboard = () => {
     setSelectedPatientId(id);
     setEditModalOpen(true);
   };
+   const viewData = (id) => {
+    setSelectedPatientId(id);
+    setViewModalOpen(true);
+  };
 
   const handleDeleteClick = async (id) => {
     try {
@@ -120,7 +124,7 @@ const Dashboard = () => {
                   <Button
                     appearance="link"
                     color="blue"
-                    onClick={() => handleViewClick(rowData.id)}
+                    onClick={() => viewData(rowData.id)}
                   >
                     View
                   </Button>
@@ -165,9 +169,9 @@ const Dashboard = () => {
         open={showModal}
       />
       <View
-        patientId={selectedPatientId}
-        handleViewClose={handleViewClose}
-        openView={viewModalOpen}
+       patientId={selectedPatientId}
+       handleViewClose={handleViewClose}
+       openView={viewModalOpen}
       />
       <Edit
         patientId={selectedPatientId}
