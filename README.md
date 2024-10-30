@@ -82,7 +82,14 @@ mvn spring-boot:run</code></pre>
     <li><strong>Response:</strong> The created patient object.</li>
 </ul>
 
-<h4>4. Delete a Patient</h4>
+<h4>4.Patient Information</h4>
+<ul>
+    <li><strong>URL:</strong> <code>/{id} MongoDb Genereated id</code></li>
+    <li><strong>Method:</strong> <code>GET</code></li>
+    <li><strong>Description:</strong> Fetch whole information from patient ID.</li>
+    <li><strong>Response:</strong> <code>201 Content</code> on successful Fetching.</li>
+</ul>
+<h4>5. Delete a Patient</h4>
 <ul>
     <li><strong>URL:</strong> <code>/{id}</code></li>
     <li><strong>Method:</strong> <code>DELETE</code></li>
