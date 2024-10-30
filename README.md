@@ -4,7 +4,7 @@
 <p>This project is a Patient Management System built using Spring Boot for the backend and React for the frontend. The backend uses MongoDB for data storage and provides RESTful APIs for CRUD operations and searching patient data. The frontend allows users to interact with the system, view, add, edit, and delete patient records.</p>
 
 <h2>Project Video</h2>
-<p>Watch the demo video to see how the system works:</p>
+<p>Watch the video to see how the system works with frontend and backend:</p>
 <p><a href="https://drive.google.com/file/d/1_lpZIwtRbuoXz2MS1Ktnzk6MRC50vP1J/view?usp=sharing" target="_blank">View Project Video Drive</a></p>
 
 <h3>Prerequisites</h3>
