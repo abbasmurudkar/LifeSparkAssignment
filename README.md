@@ -3,6 +3,9 @@
 <h2>Overview</h2>
 <p>This project is a Patient Management System built using Spring Boot for the backend and React for the frontend. The backend uses MongoDB for data storage and provides RESTful APIs for CRUD operations and searching patient data. The frontend allows users to interact with the system, view, add, edit, and delete patient records.</p>
 
+<h2>Demo Video</h2>
+<p>Watch the demo video to see how the system works:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2>Setup Instructions</h2>
 
 <h3>Prerequisites</h3>
@@ -20,7 +23,7 @@
 cd server</code></pre>
     </li>
     <li><strong>Configure MongoDB:</strong>
-    <p>Ensure MongoDB is running on your local machine. By default, the application connects to MongoDB at but make sure if you are using same mongodb url then extract it from the repository the below is just for reference that how you can configure it <code>mongodb://localhost:27017/patientdb</code>. You can configure this in the <code>application.properties</code> file if necessary:</p>
+    <p>Ensure MongoDB is running on your local machine. By default, the application connects to MongoDB but make sure if you are using same mongodb url then extract it from the repository the below is just for reference that how you can configure it <code>mongodb://localhost:27017/patientdb</code>. You can configure this in the <code>application.properties</code> file if necessary:</p>
     <pre><code>spring.data.mongodb.uri=mongodb://localhost:27017/patientdb</code></pre>
     </li>
     <li><strong>Build and run the Spring Boot application:</strong>
