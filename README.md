@@ -123,6 +123,7 @@ mvn spring-boot:run</code></pre>
 
 <h2>Notes</h2>
 <ul>
+    <li>I also created jwt authentication but its not that accurate but i mention the file in the github repo</li>
     <li>Ensure MongoDB is running on your local machine before starting the backend server.</li>
     <li>The frontend and backend should be run simultaneously to allow full interaction with the application.</li>
     <li>Customize the MongoDB connection settings as needed in the <code>application.properties</code> file.</li>
