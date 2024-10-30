@@ -16,7 +16,7 @@
 <h3>Backend Setup (Spring Boot)</h3>
 <ol>
     <li><strong>Clone the repository:</strong>
-    <pre><code>git clone https://github.com/your-repo/patient-management-system.git
+    <pre><code>git clone https://github.com/abbasmurudkar/LifeSparkAssignment
 cd patient-management-system/backend</code></pre>
     </li>
     <li><strong>Configure MongoDB:</strong>
