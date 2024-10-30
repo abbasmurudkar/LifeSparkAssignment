@@ -89,14 +89,14 @@ mvn spring-boot:run</code></pre>
     <li><strong>Description:</strong> Fetch whole information from patient ID.</li>
     <li><strong>Response:</strong> <code>201 Content</code> on successful Fetching.</li>
 </ul>
-<h4>4.Update Patient Information</h4>
+<h4>5.Update Patient Information</h4>
 <ul>
     <li><strong>URL:</strong> <code>/{id} MongoDb Genereated id</code></li>
     <li><strong>Method:</strong> <code>PUT</code></li>
     <li><strong>Description:</strong> Update the whole information By Using Id.</li>
     <li><strong>Response:</strong> <code>201 Updated</code> on successful Updation</li>
 </ul>
-<h4>5. Delete a Patient</h4>
+<h4>6. Delete a Patient</h4>
 <ul>
     <li><strong>URL:</strong> <code>/{id}</code></li>
     <li><strong>Method:</strong> <code>DELETE</code></li>
